@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "radon-ide",
+      "request": "launch",
+      "name": "Debug",
+      "appRoot": "./",
+      "env": {},
+      "ios": {
+        "configuration": "Debug"
+      },
+      "android": {
+        "buildType": "debug"
+      }
+    }
+  ]
+}

@@ -26,6 +26,8 @@ function App() {
 function AppContent() {
   const safeAreaInsets = useSafeAreaInsets();
 
+  console.log('hello');
+
   return (
     <View style={styles.container}>
       <NewAppScreen
